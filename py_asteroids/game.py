@@ -26,7 +26,7 @@ class PyAsteroids:
                 ):
                     break
 
-            self.asteroids.append(Asteroid(position))
+            self.asteroids.append(Asteroid(position, self.asteroids.append))
     
     def main_loop(self):
         while True:
@@ -84,6 +84,7 @@ class PyAsteroids:
                 if asteroid.collides_with(bullet):
                     self.asteroids.remove(asteroid)
                     self.bullets.remove(bullet)
+                    asteroid.split()
                     break
 
         for bullet in self.bullets[:]:
