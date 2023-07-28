@@ -1,6 +1,7 @@
 # Python Asteroids
 
 ## Description
+This was made following a tutorial to better understand python. Link is [here](https://realpython.com/asteroids-game-python/)
 This is a game of asteroids coded entirely with pyhton where after you run the game from the terminal, a GUI will appear and you user the keyboard as for inputs to play the game.
 
 ## Controls
