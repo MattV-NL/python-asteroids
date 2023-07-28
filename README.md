@@ -21,7 +21,7 @@ This is to avoid a complicated run command where you navigate manually on each r
 
 next install the requirements for the game
 
-`python3 -m install requirements.txt`
+`python3 -m pip install -r requirements.txt`
 
 Next you simply run the game with the following command *provided you have python installed on your machine.* If you do not, you will need to follow te steps to install pyhton. here is a [link](https://www.google.com/search?q=how+to+install+pyhton&oq=how+to+install+pyhton&aqs=chrome..69i57j0i10i512l9.2048j0j7&sourceid=chrome&ie=UTF-8)
 
